@@ -11,7 +11,6 @@ long =  ['beer', 'wine'];
 soft =  ['coke', 'fruit', 'energy drink', 'tonic'];
 
 r = rand(1000).to_i
-puts r
 
 puts 'short: ' + short[r % short.size]
 puts 'long: '  + long[r % long.size]
